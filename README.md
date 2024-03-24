@@ -7,7 +7,7 @@
 
 &emsp;&emsp;本天线设计参考了“Moxo n-Yagi Satelli te Antenna by DUIAU (based LY3LP's design)”，感谢DU1AU和LY3LP两位前辈的贡献，原设计图如下：
 
-<div align=center> <img src="Readme/design.jpg" width = 40%/> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/design.jpg" width = 40%/> </div>
 
 &emsp;&emsp;由于本人手上只有直径1.25mm的铜线作为振子，因此需要对天线的尺寸重新设计。这里我选择使用MMANA-GAL软件对天线进行仿真。花了一两天时间在B站熟悉和理解软件的使用，最后根据软件的仿真结果制作出了天线成品。
 
@@ -21,9 +21,9 @@
 
 &emsp;&emsp;经过调整后，软件显示天线在145MHz的时候，其阻抗为51.46欧姆，驻波比为1.03;当频率为435MHz时，其阻抗为51.1欧姆，驻波比为1.13。
 
-<div align=center> <img src="Readme/size.png" width = 40%/> </div>
-
-<div align=center> <img src="Readme/ant.jpg" width = 40%/> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/size.png" width = 40%/> </div>
+&emsp;
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/ant.jpg" width = 40%/> </div>
 
 ## 3、说明
 &emsp;&emsp;仓库内包含了我所使用的仿真软件安装包以及所有的仿真结果，软件资源来源自互联网。现对仿真文件进行说明：
