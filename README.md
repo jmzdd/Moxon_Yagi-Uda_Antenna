@@ -43,5 +43,8 @@
 + <a href="https://www.bilibili.com/video/BV12Z4y1B7dj/?vd_source=4c90b194142aa9512e6e97d2155ada5d">【业余无线电·天线仿真】MMANA-GAL仿真：莫克森天线应该怎样调整</a>
 ### 天线计算器
 <a href="https://upall.cn/example/moxon/">【天线计算器】</a>
+### 调试与制作
++ <a href="https://www.hellocq.net/forum/read.php?tid=374264">DIY“莫克森+八木”UV双段天线</a>
++ <a href="https://www.bilibili.com/video/BV19v411T7gT/?vd_source=4c90b194142aa9512e6e97d2155ada5d">自己做一根UV段八木天线连接国际空间站转发器能成功吗？</a>
 
 希望能够对看到这份文档的朋友提供一些小帮助，73~
