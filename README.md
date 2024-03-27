@@ -38,6 +38,8 @@
 ## 4、测试过程
 
 &emsp;&emsp;由于手上没有设备，因此使用了RTL-SDR进行测试，其中145MHz不明显，435MHz瀑布图如下：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/435MHz.png" width = 40%/> </div>
+
 
 ## 5、参考资料
 ### 仿真软件学习
