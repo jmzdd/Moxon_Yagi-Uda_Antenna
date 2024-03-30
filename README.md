@@ -15,18 +15,26 @@
 
 ## 二、设计过程
 
-### 1、设计思路
+### 2.1 设计思路
 &emsp;&emsp;因为是UV双段天线，因此要求天线的中心频率在常用的两个频段：145MHz与435MHz。使用软件对该天线进行仿真，在结构不变的前提下，我修改了振子的长度与各振子之间的间距，最终得出了想要的结果。
 
 &emsp;&emsp;先使用Moxon天线计算器计算莫克森部分，确定其振子的尺寸。由于没有找到合适的八木计算器，无法直接计算八木部分的振子尺寸和间距，遂在确定了莫克森振子尺寸之后在MMANA-GAL软件内建模仿真，通过不断调整八木振子的长度和距离，反复计算其在435MHz时的阻抗和驻波比，最终确定其尺寸和距离。
 
-### 2、MMANA-GAL软件仿真
+### 2.2 MMANA-GAL软件仿真
 
 &emsp;&emsp;建立天线模型：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/Antenna_model.png" width = 40%/> </div>
+&emsp;
 &emsp;&emsp;调整八木天线的振子长度和距离：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/data.png" width = 50%/> </div>
+&emsp;
 &emsp;&emsp;计算天线阻抗以及驻波比：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/145MHz_R_SWR.png" width = 50%/> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/435MHz_R_SWR.png" width = 50%/> </div>
+&emsp;
 &emsp;&emsp;145MHz与435MHz的远场图：
-
+<div align=center> <img src="https://github.com/jmzdd/Moxon_Yagi-Uda_Antenna/blob/main/Raedme/far-field-diagram.png" width = 40%/> </div>
+&emsp;
 &emsp;&emsp;由于理论知识欠缺的实在多，在设计过程中遇到的问题大多交给Gemini帮忙给出建议，例如：要解决天线阻抗偏小的问题，可以采取以下措施：
 + 增加天线的尺寸。天线的尺寸越大，天线的输入阻抗就越高。
 + 缩短馈电点的长度。馈电点的长度越短，天线的输入阻抗就越高。
@@ -71,13 +79,13 @@
 
 
 ## 六、参考资料
-### 1、仿真软件学习
+### 6.1 仿真软件学习
 + <a href="https://www.qsl.net/bv3fg/ant/MMANA-GAL_manual_zh-TW_20211206-01.pdf">【MMANA-GAL_manual_zh-TW.pdf】</a>
 + <a href="https://www.bilibili.com/video/BV14J411Q7TQ/?vd_source=4c90b194142aa9512e6e97d2155ada5d">【宅台长】天线设计软件MMANA-GAL介绍</a>
 + <a href="https://www.bilibili.com/video/BV12Z4y1B7dj/?vd_source=4c90b194142aa9512e6e97d2155ada5d">【业余无线电·天线仿真】MMANA-GAL仿真：莫克森天线应该怎样调整</a>
-### 2、天线计算器
+### 6.2 天线计算器
 + <a href="https://upall.cn/example/moxon/">【天线计算器】</a>
-### 3、调试与制作
+### 6.3 调试与制作
 + <a href="https://www.hellocq.net/forum/read.php?tid=374264">DIY“莫克森+八木”UV双段天线</a>
 + <a href="https://www.bilibili.com/video/BV19v411T7gT/?vd_source=4c90b194142aa9512e6e97d2155ada5d">自己做一根UV段八木天线连接国际空间站转发器能成功吗？</a>
 
