@@ -22,19 +22,19 @@
 
 ### 2.2 MMANA-GAL软件仿真
 
-&emsp;&emsp;建立天线模型：
++ 建立天线模型：
 <div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/Antenna_model.png" width = 40%/> </div>
-&emsp;
-&emsp;&emsp;调整八木天线的振子长度和距离：
-<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/data.png" width = 50%/> </div>
-&emsp;
-&emsp;&emsp;计算天线阻抗以及驻波比：
-<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/145MHz_R_SWR.png" width = 50%/> </div>
-<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/435MHz_R_SWR.png" width = 50%/> </div>
-&emsp;
-&emsp;&emsp;145MHz与435MHz的远场图：
-<div align=center> <img src="https://github.com/jmzdd/Moxon_Yagi-Uda_Antenna/blob/main/Raedme/far-field-diagram.png" width = 40%/> </div>
-&emsp;
+
++ 调整八木天线的振子长度和距离：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/data.png" width = 70%/> </div>
+
++ 计算天线阻抗以及驻波比：
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/145MHz_R_SWR.png" width = 70%/> </div>
+<div align=center> <img src="https://raw.githubusercontent.com/jmzdd/Moxon_Yagi-Uda_Antenna/main/Raedme/435MHz_R_SWR.png" width = 70%/> </div>
+
++ 145MHz与435MHz的远场图：
+<div align=center> <img src="https://github.com/jmzdd/Moxon_Yagi-Uda_Antenna/blob/main/Raedme/far-field-diagram.png" width = 70%/> </div>
+
 &emsp;&emsp;由于理论知识欠缺的实在多，在设计过程中遇到的问题大多交给Gemini帮忙给出建议，例如：要解决天线阻抗偏小的问题，可以采取以下措施：
 + 增加天线的尺寸。天线的尺寸越大，天线的输入阻抗就越高。
 + 缩短馈电点的长度。馈电点的长度越短，天线的输入阻抗就越高。
